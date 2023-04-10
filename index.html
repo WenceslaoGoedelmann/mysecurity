@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="mediaqueries.css" />
+    <title>My Security</title>
+</head>
+<body>
+
+    <header class="header">
+        <a href="#hero" class="logo-container">
+            <img src="img\img_Logo2.png" alt="" class="logo">
+        </a>
+        <nav class="navbar">
+                <div class="navbar-label">
+                    <i class="fa-solid fa-bars navbar-icon"></i>
+                </div> 
+                <ul class="navbar-list">
+                    <li ><a href="#about-us">¿Quiénes Somos?</a></li>
+                    <li ><a href="#productos">Nuestros Productos</a></li>
+                    <li ><a href=login.html>Ingresa</a></li>
+                    <li ><a href="#contact">Contactanos</a></li>
+                </ul>
+                <div class="carrito-label">
+                    <a class="fa-solid fa-cart-shopping carrito-icon" href="carrito.html">
+                        <div class="carrito-bubble">0</div>
+                    </a>
+                </div>
+        </nav>
+
+       
+        <div class="overlay"></div>
+
+    </header>
+
+    <main>
+        <div class="section-container">
+            <section  id="hero">
+                <div class="hero-text">
+                    <h1>My Security</h1>
+                    <p>Seguridad para tu Hogar o Empresa</p>
+                </div>
+                <div class="hero-img"></div>
+            </section>
+        </div>
+        <div class="section-container">
+            <section  id="about-us">
+                <div class="about-us-img"></div>
+                <div class="about-us-text">
+                    <h2>#MySecurity</h2>
+                    <p>Somos representantes oficiales de sistemas electrónicos de seguridad y sistemas de videos X-28.</p>
+                </div>
+    
+            </section>
+         </div>
+         <div class="section-container">
+            <section id="productos">
+                <div class="categorias">
+                    <button class="categoria activa">🌐 Todas</button>
+                    <button class="categoria" data-categoria="alarmas">🚨 Alarmas</button>
+                    <button class="categoria" data-categoria="camaras">📸 Camaras</button>
+                </div>
+                  <div class="productos-container">
+                <!--  <div class="producto">
+                        <div class="card-producto-top">
+                            <h3>${}</h3>
+                        </div>
+                        <img src= ${} />
+                        <div class="producto-info">
+                  
+                            <div class="card-producto-mid">
+                                <p>Precio:</p>
+                                <span> ${}</span>
+                            </div>
+                  
+                            <div class="card-producto-bot">
+                                <button class="btn-agregar"
+                                    data-id='${}'
+                                    data-name='${}'
+                                    data-price='${}'
+                                    data-img='${}'>Agregar al Carrito</button>
+                            </div>
+                        </div>
+                     </div> -->
+                  </div>
+                <button class="btn-VerMas">Ver Más</button>
+            </section>
+         </div>    
+         <div class="section-container">
+            <section id="contact">
+                <div class="contact-info">
+                    <div class="contacto">
+                    <b>Contacto:</b>
+                    <span><i class="fa-solid fa-phone"></i><a href=" ">+54 341 3092659</a></span>
+                    <span><i class="fa-regular fa-envelope"></i> <a href=""> info.mysecurity@gmail.com</a></span>
+                    </div>
+                    <div class="nuestras-redes">
+                    <b>Nuestras Redes:</b>
+                    <div class="redes">
+                        <a href="https://www.instagram.com/" class="instagram-icon" target="_blank"></a>
+                        <a href="https://www.facebook.com/" class="facebook-icon" target="_blank" ></a>
+                    </div>  
+                    </div> 
+
+                </div>
+                
+    
+    
+            </section>
+        </div>  
+
+    </main>
+    <div>
+    <footer class="section-container">
+     <p>Copyright © Todos los derechos reservados. My Security</P>
+    </footer>
+    </div>
+
+
+
+    </main>
+    <div class="add-modal"></div>
+    <script src="data.js"></script>
+    <script src="index.js"></script> 
+</body>
+</html>

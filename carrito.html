@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="mediaqueriesCarrito.css" />
+    <title>Carrito My Security</title>
+</head>
+<body>
+    <header class="header">
+        <a href="index.html" class="logo-container">
+            <img src="img\img_Logo2.png" alt="" class="logo">
+        </a>
+        <nav class="navbar">
+                <div class="navbar-label">
+                    <i class="fa-solid fa-bars navbar-icon"></i>
+                </div> 
+                <ul class="navbar-list">
+                    <li ><a href="index.html">Home</a></li>
+                    <li ><a href=login.html>Ingresa</a></li>
+                    <li ><a href="#contact">Contactanos</a></li>
+                </ul>
+                <div class="carrito-label">
+                    <a class="fa-solid fa-cart-shopping carrito-icon" href="carrito.html">
+                        <div class="carrito-bubble">0</div>
+                    </a>
+                </div>
+            </nav>
+
+   
+        
+          <div class="overlay"></div>
+
+    </header>
+    <main>
+        <div class="section-container">
+            <div class="carrito">
+
+            <h2>Tus Productos:</h2>
+        
+            <div class="carrito-container">
+              
+<!--              <div class="carrito-item">
+                <img src= ${}   />
+                <div class="item-info">
+                  <h3 class="item-titulo"> ${} </h3>
+                  <div class="precio">
+                  <p class="item-precio">Precio</p>
+                  <span class="item-precio-numero">$ ${} </span>
+                </div>
+                </div>
+                <div class="item-handler">
+                  <span class="quantity-handler down" data-id=${}>-</span>
+                  <span class="item-cant">${} </span>
+                  <span class="quantity-handler up" data-id=${ }>+</span>
+                </div>
+              </div>   -->
+    
+            </div>
+    
+            <span class="divider"></span>
+    
+            <div class="carrito-total">
+            <div class="precioTotal">
+              <p>Total: </p>
+              <span class="total">300</span>
+            </div>
+            <button class="btn-comprar">Comprar</button>
+            <button class="btn-vaciar-carrito">Vaciar carrito</button>
+        </div>
+          </div>    
+        </div>
+
+        <div class="section-container">
+            <section id="contact">
+                <div class="contact-info">
+                    <div class="contacto">
+                    <b>Contacto:</b>
+                    <span><i class="fa-solid fa-phone"></i><a href=" ">+54 341 3092659</a></span>
+                    <span><i class="fa-regular fa-envelope"></i> <a href=""> info.mysecurity@gmail.com</a></span>
+                    </div>
+                    <div class="nuestras-redes">
+                    <b>Nuestras Redes:</b>
+                    <div class="redes">
+                        <a href="https://www.instagram.com/" class="instagram-icon" target="_blank"></a>
+                        <a href="https://www.facebook.com/" class="facebook-icon" target="_blank" ></a>
+                    </div>  
+                    </div> 
+
+                </div>
+                
+    
+    
+            </section>
+        </div>  
+
+    </main>
+    <div>
+    <footer class="section-container">
+     <p>Copyright © Todos los derechos reservados. My Security</P>
+    </footer>
+    </div>
+    </main>
+    <div class="add-modal"></div>
+    <script src="carrito.js"></script> 
+    
+</body>
+</html>

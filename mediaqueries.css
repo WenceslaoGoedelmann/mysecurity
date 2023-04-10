@@ -1,0 +1,151 @@
+@media (max-width: 1040px) {
+  .navbar-list{
+    gap: 10px; 
+    }
+}
+
+@media (max-width: 940px) {
+    .navbar-list {
+        position: absolute;
+        top: 100px;
+        left: 5%;
+        right: 5%;
+        width: 90%;
+        flex-direction: column;
+        border-top: 0px;
+        border-radius: 0px 0px 15px 15px;
+        align-items: center;
+        padding: 45px 30px;
+        gap: 25px;
+        z-index: 2;
+        display: none;
+        background-color:  rgb(50, 50, 50); 
+      }
+      .navbar-list a {
+        font-size: 18px;
+      }
+      .navbar-label {
+        display: flex;
+        cursor: pointer;
+        padding-right: 30px;
+       
+      }
+      .open-navbar {
+        display: flex;
+      }
+    }
+
+    @media (max-width: 600px) {
+      .logo{
+        width: 150px;
+        height: 50px;
+      }
+
+      #hero{
+       padding: 110px 5px 10px 5px; 
+      }
+        
+       
+      .hero-img {
+        width: 150px;
+        height: 100px;
+      }
+      .hero-text h1 {
+        font-size: 20px;
+    }
+    .hero-text p {
+        font-size: 15px;
+    }
+    #about-us{
+      padding: 10px 10px 10px 15px;
+  }
+
+    .about-us-img{
+      width: 150px;
+      height: 100px;
+  }
+  
+  .about-us-text h2{
+      font-size: 20px;
+  }
+  
+  .about-us-text p{
+      font-size: 15px;
+  }
+  .categoria {
+    padding: 8px 12px;
+    font-size: 10px;
+  }
+
+  .producto img{
+    width: 100px;
+    height: 100px;
+  }
+  .card-producto-top h3 {
+    font-size: 12px;
+  }
+  .btn-agregar {
+    font-size: 8px;
+    height: 30px;
+    width: 85px;
+     }
+     .card-producto-mid p {
+      font-size: 12px;
+    }
+    .card-producto-mid span {
+      font-size: 12px;
+    }
+    .contact-info{
+      font-size: 12px;
+      font-weight:250;
+      
+  }
+  .instagram-icon{
+    height: 25px;
+    width: 25px;
+ }
+ .facebook-icon{
+  height: 25px;
+  width: 25px;
+ }
+ footer{
+  font-size: 12px;
+ }
+
+    }
+
+    @media (max-width: 460px) {
+      .logo{
+        width: 120px;
+        height: 40px;
+      }
+      .hero-img {
+        width: 120px;
+        height: 80px;
+      }
+      .hero-text h1 {
+        font-size: 15px;
+    }
+    .hero-text p {
+        font-size: 10px;
+    }
+    .about-us-img{
+      width: 120px;
+      height: 80px;
+  }
+  
+  .about-us-text h2{
+      font-size: 15px;
+  }
+  
+  .about-us-text p{
+      font-size: 10px;
+  }
+}
+
+@media (max-width: 360px) {
+  #contact{
+    padding: 20px;
+    }
+
+  }
